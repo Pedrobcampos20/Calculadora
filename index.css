@@ -1,0 +1,640 @@
+*{
+   background: linear-gradient(-45deg, yellow, red);
+}
+
+#corpo{
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 31rem;
+   padding: 1rem;
+   border-radius: .8rem;
+   box-shadow: 5px 5px 5px black;
+   cursor: pointer
+}
+
+#teclado1{
+   background: #ffffff;
+   cursor: pointer
+   
+   
+}
+
+#teclado2{
+   background: #ffffff;
+   padding-top: .3rem;
+   cursor: pointer
+}
+
+#teclado3{
+   background: #ffffff;
+   padding-top: .3rem;
+   cursor: pointer
+}
+
+#teclado4{
+   background: #ffffff;
+   padding-top: .3rem;
+   cursor: pointer
+}
+#mais{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+   
+}
+
+#menos{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#dividir{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#multiplicar{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#virgula{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#igual{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#ce{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#borracha{
+   width: 9rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+#numeros-altos{
+   background: #ffffff;
+   padding-left: 5%;
+}
+
+#numeros-medios{
+   background: #ffffff;
+}
+
+#numeros-baixos{
+   background: #ffffff;
+}
+
+#numero-sem-valor{
+   background: #ffffff;
+}
+
+#nove{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+   
+}
+
+#oito{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#sete{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#seis{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#cinco{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#quatro{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#tres{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#dois{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#um{
+   width: 4rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+
+}
+
+#zero{
+   width: 12.5rem;
+   height: 4rem;
+   font-size: 40px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+ 
+}
+
+#painel {
+   height: 3rem;
+   width: 30.5rem;
+   background:  rgb(156, 155, 155);;
+   font-size: 43px;
+   text-align: right;
+   
+}
+
+@media (max-width: 1062px){
+#corpo{
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 31rem;
+   padding: 1rem;
+   border-radius: .8rem;
+   box-shadow: 5px 5px 5px black;
+   cursor: pointer
+}}
+
+@media (max-width: 630px){
+   *{
+      background: linear-gradient(-15deg, yellow, red);
+   }
+
+   #corpo{
+      position: absolute;
+      left: 50%;
+      top: 35%;
+      bottom: 25%;
+      transform: translate(-50%, -50%);
+      background: #ffffff;
+      width: 30rem;
+      height: 17rem;
+      padding: 1rem;
+      border-radius: .8rem;
+      box-shadow: 5px 5px 5px black;
+      cursor: pointer
+   }
+
+   #mais{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+      
+   }
+   
+   #menos{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #dividir{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #multiplicar{
+      width: 8.5rem;
+      height: 3.5rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #virgula{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #igual{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #ce{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #borracha{
+      width: 8.5rem;
+      height: 3rem;
+      font-size: 30px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+
+   #nove{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+      
+   }
+   
+   #oito{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #sete{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #seis{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #cinco{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #quatro{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #tres{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #dois{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   }
+   
+   #um{
+      width: 4rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+   
+   }
+   
+   #zero{
+      width: 12.5rem;
+      height: 3rem;
+      font-size: 40px;
+      background: rgb(156, 155, 155);
+      border-radius: .8rem;
+      cursor: pointer
+    
+   }
+
+}
+
+@media (max-width: 451px){
+
+*{
+   
+   background: linear-gradient(-45deg, yellow, red);
+}
+
+#corpo{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   bottom: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   width: 24rem;
+   height: 17rem;
+   border-radius: .8rem;
+   box-shadow: 5px 5px 5px black;
+   cursor: pointer
+}
+
+#mais{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+   
+}
+
+#menos{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#dividir{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#multiplicar{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#virgula{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#igual{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#ce{
+   width: 4.5rem;
+   height:2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#borracha{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#nove{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+   
+}
+
+#oito{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#sete{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#seis{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#cinco{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#quatro{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#tres{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#dois{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+}
+
+#um{
+   width: 4.5rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+
+}
+
+#zero{
+   width: 14rem;
+   height: 2.8rem;
+   font-size: 30px;
+   background: rgb(156, 155, 155);
+   border-radius: .8rem;
+   cursor: pointer
+ 
+}
+
+#teclado3{
+   background: #ffffff;
+   cursor: pointer
+}
+
+#teclado4{
+   background: #ffffff;
+   cursor: pointer
+}
+
+#painel {
+   height: 3rem;
+   width: 24.5rem;
+   background:  rgb(156, 155, 155);;
+   font-size: 43px;
+   text-align: right;
+   
+}
+}
